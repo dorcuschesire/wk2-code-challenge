@@ -1,0 +1,7 @@
+.list-item{
+    margin-bottom:10px;
+}
+.list-item.purchased{
+    text-decoration:line-through;
+    color:grey;
+}
