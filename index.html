@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
-        <title>shopping List</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Shopping List</h1>
-        <input type="text" id="itemInput" placeholder="Enter item">
-        <button onclick="addItem()">Add</button>
-        <button onclock="clearList()">ClearList</button>
-        <div id="listContainer"></div>
-        <script src="script.js"></script>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Shopping List</h1>
+    <div id="shopping-form">
+      <input type="text" id="item" placeholder="Enter item">
+      <button id="add">Add</button>
+      <button id="clear">Clear List</button>
+    </div>
+    <ul id="shopping-list">
+    <li>buy milk</li>
+    <li>buy notebook</li>
+    <li>buy sugar</li>
+    </ul>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
 </html>

@@ -1,7 +1,52 @@
-.list-item{
-    margin-bottom:10px;
-}
-.list-item.purchased{
-    text-decoration:line-through;
-    color:grey;
-}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #shopping-form {
+    margin-bottom: 20px;
+  }
+  
+  #shopping-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #shopping-list li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  #shopping-list li.completed {
+    text-decoration: line-through; 
+    color: #888; 
+  }
+  
+  #shopping-form input[type="text"] {
+    width: 60%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  #shopping-form button {
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  #shopping-form button#clear {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  #shopping-form button#clear:hover {
+    background-color: #d32f2f;
+  }
